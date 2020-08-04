@@ -1,6 +1,6 @@
 package java_basic.day09.demo2;
 
-public class Dog {
+public class Dog extends Animal{
     String name;
     int age;
     String sex;
