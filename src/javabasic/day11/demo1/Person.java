@@ -12,6 +12,10 @@ public class Person implements Cloneable{
         System.out.println(person);
         //javabasic.day11.demo1.Person@1540e19d
         Object clone = person.clone();
+        /*
+        clone是直接在内存中复制一份出来给接收的对象
+        Object.clone() 只能在自己定义的类中使用，且需要抛出异常CloneNotSupportedException
+         */
         System.out.println(clone);
         //javabasic.day11.demo1.Person@677327b6
         System.out.println(person.equals(clone));
@@ -21,6 +25,13 @@ public class Person implements Cloneable{
     }
 
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     private String name;
     private int age;

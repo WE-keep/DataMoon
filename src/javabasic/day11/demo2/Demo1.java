@@ -14,7 +14,11 @@ public class Demo1 {
         //356573597
 
         System.out.println(student.getClass());
+        //class javabasic.day11.demo2.Student
+
         System.out.println(student.getClass().getName());
+        //javabasic.day11.demo2.Student
+
         System.out.println(student.getClass().getName() + "@" + Integer.toHexString(student.hashCode()));
 
         System.out.println(student.toString());
@@ -22,8 +26,10 @@ public class Demo1 {
         Student s2 = new Student();
         Student s3 = new Student();
         System.out.println(s2.equals(s3));
+        //false
         Student s4 = s3;
         System.out.println(s3.equals(s4));
+        //true
 
     }
 }

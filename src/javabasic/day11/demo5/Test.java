@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入一段文字");
-        String s = scanner.nextLine();
-        String[] s1 = s.split(" ");
-        System.out.println(Arrays.toString(s1));
+        System.out.println("请输入测试文字");
+        String line = scanner.nextLine();
+        String[] split = line.split(" ");
+        System.out.println(Arrays.toString(split));
+
     }
 }

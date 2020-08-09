@@ -3,12 +3,16 @@ package javabasic.day09.demo1;
 public class ObjectDemo1 {
     public static void main(String[] args) {
         Person p = new Student();
-        System.out.println(p.name); //人
+        System.out.println(p.name);
+        //人
         System.out.println(p);
-        p.show();                   //Hello World
+        //javabasic.day09.demo1.Student@1540e19d
+        p.show();
+        //Hello World
 
 //        p.eat();        //报错
-        Student s = (Student)p;     //向下转型
+        Student s = (Student)p;
+        //向下转型
         s.eat();
         System.out.println(s);
     }

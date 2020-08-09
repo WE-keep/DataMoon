@@ -8,8 +8,11 @@ public class Demo1 {
     public static void main(String[] args) {
         String a = "Hello World";
         System.out.println(a.length());
+        //11
 
         char c = a.charAt(1);
+
         System.out.println(c);
+        //e
     }
 }

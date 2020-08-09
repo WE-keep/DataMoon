@@ -12,6 +12,7 @@ public class Demo2 {
         int times = 0;
         int i = test.indexOf(str);
         System.out.println(i);
+        //10
         while (i != -1) {
             times++;
             i = test.indexOf("java",i + 1);

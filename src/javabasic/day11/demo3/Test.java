@@ -20,13 +20,15 @@ public class Test {
             String pwd = sc.nextLine();
             if (!name.equals(userName) || !passWd.equals(pwd)) {
                 i++;
+                System.out.println("你还有:" + (3 - i) + "次机会");
                 if (i == 3) {
                     System.out.println("没机会了");
                     flag = false;
                     break;
-                } else {
-                    System.out.println("登陆成功");
                 }
+            } else {
+                System.out.println("登陆成功");
+                break;
             }
         }
 

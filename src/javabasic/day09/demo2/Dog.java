@@ -5,6 +5,7 @@ public class Dog extends Animal{
     int age;
     String sex;
 
+    @Override
     public void eat() {
         System.out.println("狗吃骨头");
     }

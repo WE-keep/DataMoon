@@ -9,6 +9,8 @@ import java.util.Arrays;
 public class Demo2 {
     public static void main(String[] args) {
         String s = "小明，22，男；小红，20，女；小城，20，男";
+
+
         String[] split = s.split("；");
         Person[] people = new Person[split.length];
         for (int i = 0; i < split.length; i++) {
