@@ -53,7 +53,7 @@ public class Demo2 {
         int j = height;
         int base = arr[low];
         //定义基准值
-
+        
         while (i < j) {
             while (arr[j] >= base && i < j) {
                 j--;
@@ -74,8 +74,6 @@ public class Demo2 {
 
         quickSort(arr,low,i - 1);
         quickSort(arr,i + 1, height);
-
-
     }
 
 

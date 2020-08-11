@@ -12,5 +12,6 @@ public class Test1 {
         int a = 12;
         a += in;
         //a = a + 20    自动拆箱
+
     }
 }
