@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
 
-
+        Machine machine = new Machine();
+        machine.show();
     }
 }

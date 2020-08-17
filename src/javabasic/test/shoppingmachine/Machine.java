@@ -71,9 +71,13 @@ public class Machine {
 
     public void viewProduct() {
         int len = goods.length;
-        for (int i = 0; i < len; i++) {
-            System.out.println("商品名" + "\t" + "数量");
-            System.out.println(goods[i].getName() + "\t" + goods[i].getNums());
+        if (len <= 0) {
+            System.out.println("现在暂时没有商品");
+        } else {
+            for (int i = 0; i < len; i++) {
+                System.out.println("商品名" + "\t" + "数量");
+                System.out.println(goods[i].getName() + "\t" + goods[i].getNums());
+            }
         }
     }
     /**
