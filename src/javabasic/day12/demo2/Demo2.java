@@ -11,6 +11,10 @@ public class Demo2 {
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(binarySearch(arr,7));
 
+        int[] testArr = {13,2,6,9};
+        quickSort(testArr,0,testArr.length - 1);
+        System.out.println(Arrays.toString(testArr));
+
 
 
     }

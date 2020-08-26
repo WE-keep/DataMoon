@@ -1,8 +1,6 @@
 package javabasic.day17.demo2;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
